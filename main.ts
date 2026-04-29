@@ -1,12 +1,12 @@
 namespace mqlib {
     // 16x16 汉字点阵结构
-    export interface CN16oledtftChar {
+    interface CN16oledtftChar {
         str: string;       // 汉字
         dot: number[];   // 32 字节点阵
     }
 
     // 只包含：中、文
-    export const CN16oledtft: CN16oledtftChar[] = [
+    const CN16oledtft: CN16oledtftChar[] = [
         {
             str: "中",
             dot: [
