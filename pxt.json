@@ -1,5 +1,5 @@
 {
-    "name": "pxt-mqlib-oled-wb",
+    "name": "pxt-mqlib-oledtft-wb",
     "version": "0.0.0",
     "description": "",
     "dependencies": {
